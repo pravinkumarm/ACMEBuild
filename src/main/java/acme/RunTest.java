@@ -23,7 +23,7 @@ public class RunTest {
 	
 	@Test
 	public void runTest() throws InterruptedException { // for chrome
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
 		// System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
